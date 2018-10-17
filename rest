@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	int a, b;
+	float resto;
+	
+	printf("insert two numbers\n");
+	scanf("%d %d",&a,&b);
+	
+	resto = a%b;
+	
+	printf("the rest is %.2f ¯\_(".")_/¯",resto);	
+	
+	
+	return 0;
+}
+
+
+
