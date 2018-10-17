@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	int num;
+	
+	do{
+		printf("insert a number 1-10 and I`ll send you a the neighbourhood song to listen to\n")
+		scanf("%d",num);
+	} while(num<1 || num>10);
+	
+	if(num==1){
+		printf("listen to: https://www.youtube.com/watch?v=XTDH7gSqwiQ \n");
+	}	
+	if(num==2){
+		printf("listen to: https://www.youtube.com/watch?v=zTIoErJmsp4 \n");
+	}	
+	if(num==3){
+		printf("listen to: https://www.youtube.com/watch?v=XjkYk1YKWNA \n");
+	}	
+	if(num==4){
+		printf("listen to: https://www.youtube.com/watch?v=x47TgeRJtH0 \n");
+	}	
+	if(num==5){
+		printf("listen to: https://www.youtube.com/watch?v=agdObcVqqMU \n");
+	}	
+	if(num==6){
+		printf("listen to: https://www.youtube.com/watch?v=aEr6HvA3fSo \n");
+	}	
+	if(num==7){
+		printf("listen to: https://www.youtube.com/watch?v=pEue3Tchdvc \n");
+	}	
+	if(num==8){
+		printf("listen to: https://www.youtube.com/watch?v=ALwoKots_sg \n");
+	}	
+	if(num==9){
+		printf("listen to: https://www.youtube.com/watch?v=LILL0AV0938 \n");
+	}	
+	if(num==10){
+		printf("listen to: https://www.youtube.com/watch?v=GCdwKhTtNNw \n");
+	}
+	
+	return 0;
+}
